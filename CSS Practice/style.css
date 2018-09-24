@@ -1,0 +1,13 @@
+/*Basic Syntax for CSS
+"Selector {
+	Property: value;
+}"*/
+
+h2 {
+	color: magenta;
+	background-color: black;
+}
+
+p {
+	color: pink;
+}
