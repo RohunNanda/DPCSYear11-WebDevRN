@@ -1,0 +1,67 @@
+/*Basic Syntax for CSS
+"Selector {
+	Property: value;
+}"*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(https://london.ac.uk/sites/default/files/styles/promo_mobile/public/2017-08/Study%20in%20london.png?itok=cVAL8iOT);
+	background-size: cover;
+}
+
+h2, p {
+	color: #4D7414;
+	text-align: center;
+	border: 2px solid rgba(255, 123, 123, 0.4);
+	cursor: pointer;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	text-align: center; 
+	clear: both; 
+	border: 2px solid rgba(234, 0, 0, 0.2);
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+p:hover {
+	color: rgba(255,0,0,0.3);
+	text-transform: uppercase;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold; 
+	font-size: 175%;
+	font-family: 'Charmonman', cursive;
+}
+
+.webtext {
+	border: 5px dashed purple;
+}
+
+.active {
+	border: 2px solid rgba(255, 0, 0, 0.3);
+	color: blue;
+}
+
+#div1 {
+	background: rgba(0,0,255,0.2);
+}
+
+#div2 {
+	background: rgba(0,255,0,0.2);
+
+
+
+
+	
+}
