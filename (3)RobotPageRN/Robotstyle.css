@@ -1,13 +1,20 @@
+body {
+	background-image: url(https://ae01.alicdn.com/kf/HTB1nAkRi9YH8KJjSspdq6ARgVXa4/white-damask-gray-grey-Floral-pattern-Background-Vinyl-cloth-High-quality-Computer-print-wall-photo-backdrop.jpg_640x640.jpg);
+}
+
 h1 {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	border-bottom: 3px green;
+	box-shadow: 2px 2px orange;
+	font-family: "Raleway", sans-serif;
+	color: red; 
 }
 
 .robots {
-	flex-wrap: wrap;
-	display: flex;
-	justify-content: center;
-}
+	flex-wrap: wrap; /*By adding this flex-wrap, it is specified that the robot can be adjusted based on the window size*/
+	display: flex;  /*Distributes the image so that all shapes are filled throughout the screen efficiently*/
+	justify-content: center; /*The robot is now centered*/
+} /*Hinted by the blank attributes to the ".robots" tag*/
 
 .head, 
 .left_arm, 
@@ -15,7 +22,7 @@ h1 {
 .right_arm, 
 .left_leg, 
 .right_leg {
-	 background-color: #5f93e8;
+	 background-color: #ff588a;
 }
 
 .head { 
@@ -27,7 +34,7 @@ h1 {
 } 
 
 .eyes {
-	display: flex;
+	display: flex; /*Makes the eye distribution even; hinted by no attributes to the ".eyes" tag*/
 }
 
 .head:hover {
@@ -61,6 +68,11 @@ h1 {
 	border-radius: 0 0 50px 50px; 
 } 
 
+.torso:hover {
+	width: 300px;
+	transition: 1s ease-in-out;
+}
+
 .lower_body { 
 	width: 200px; 
 	height: 200px;
@@ -93,6 +105,9 @@ h1 {
 	margin-left: 30px; 
 }
 
+.right_leg:hover {
+	transform: rotate(340deg);
+}
 .left_eye, .right_eye { 
 	width: 20px; 
 	height: 20px; 
